@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div style="margin-top: 50px;"></div>
 
 <html>
 
@@ -9,10 +10,17 @@
 </head>
 
 <body>
-    
-    <p> I am <i> sultan habte </i>. I come from gurage zone to study <b> software engineering </b> </p>
 
-    <img src="chelsea.jpg" height="100" width="100" alt=" This logo is belongs to chelsea football club">
+    <a href="http://www.chelsea.com">
+    <img src="chelsea.jpg" height="100" width="100" style="border-radius: 50%" alt=" This logo is belongs to chelsea football club">
+    </a>
+    <br>
+    <a href="#bottom">Go to Bottom</a>
+
+
+
+
+    <p> I am <i> sultan habte </i>. I come from gurage zone to study <b> software engineering </b> </p>
 
     <ul>
         <h4> The following description maybe tell you about my hobbies and daily habits </h4>
@@ -37,7 +45,8 @@
 
     <h3> Credit hour of each course </h3>
     <table bgcolor="2A2A2A">
-        <tr bgcolor="green"> 
+        <tr bgcolor="green">
+            <th bgcolor="yellow">Course name</th> 
             <th width="50">DB</th>
             <th width="50">DLD</th>
             <th width="50">DM</th>
@@ -45,17 +54,29 @@
             <th width="50">linux</th>
             <th width="50">OOP</th>
         </tr>
-        <tr bgcolor="cream" align="center">
-            <td height="30">4</td>
+        <tr bgcolor="cream" align="center" height="30">
+            <td bgcolor="yellow">CH</td>
+            <td>4</td>
             <td>4</td>
             <td>3</td>
             <td>3</td>
             <td>2</td>
             <td>3</td>
         </tr>
+        <tr bgcolor="cream" align="center" height="30">
+            <td bgcolor="yellow">Lecturers</td>
+            <td>Mr.a</td>
+            <td>Mr.b</td>
+            <td>Mr.c</td>
+            <td>Mr.x</td>
+            <td>Mr.y</td>
+            <td>Mr.z</td>
+        </tr>
 
         
     </table>
+    <h4>If you want to know how to create table using HTML, see the following youtube video</h4>
+    <iframe src="https://www.youtube.com/embed/iDA0kF5lrVk" ></iframe>
 
     <h4>Important links </h4>
     <a href="http://www.google.com"> Google </a>
@@ -63,8 +84,39 @@
     <a href="http://www.w3school.com">w3school</a>
     <h4> Links for bro code's youtube channal</h4>
     <a href="http://www.youtube.com/@BroCodez">bro code</a>
-    <h4>If you don't get how to create table using HTML, see the following youtube video</h4>
-    <iframe src="https://www.youtube.com/embed/iDA0kF5lrVk" width="400" height="200" > 
+    
+    
+    <h4>put your information here</h4>
+    <form>
+       <label for="fname" >first  name:</label>
+       <input type=" text" id="fname" placeholder="your name">
+       <div>
+       <br>
+       <label for="lname">last name:</label>
+       <input type="text"  id="lname" placeholder="your father name">
+       <div>
+       <br>
+       <label for="gmail">email:</label>
+       <input type="text" id="gmail" placeholder="your email">
+       <div>
+       <br>
+       <label for="you">write about your self:</label>
+       <br>
+       <textarea id="you" rows="10" cols="50" placeholder="write here"></textarea>
+       <div>
+       <br>
+       <input type="submit" style="background-color:rgb(7, 255, 7) ;cplor: black ">
+       <div>
+       <br>
+       <input type="reset" style="background-color: rgb(239, 7, 7);color: #000;">
+        <div>
+       <br>
+       
+    </form>
+    <div style="margin-top: 100px;"></div>
+<p id="bottom">Bottom of page</p>
+<br><a href="#top">Go to Top</a>
+
 
 </body>
 </html>
